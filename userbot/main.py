@@ -66,10 +66,9 @@ AFKSTR = [
     "Şu an burada değilim....\nama öyleysem ...\n\nbu harika olmaz mıydı?",
 ]
 
-UNAPPROVED_MSG = ("`Hey,` {mention}`! Bu bir bot. Endişelenme.\n\n`"
-                  "`Sahibim sana PM atma izni vermedi. `"
-                  "`Lütfen sahibimin aktif olmasını bekleyin, o genellikle PM'leri onaylar.\n\n`"
-                  "`Bildiğim kadarıyla o kafayı yemiş insanlara PM izni vermiyor.`")
+UNAPPROVED_MSG = ("`Merhaba,` {mention}`! .\n\n`"
+                  "`@dizilight adresinden mobil uygulamayı indirebilirsin `"
+                  "`İçeride dizi ve filmler mevcut.\n\n`")
 
 DB = connect("learning-data-root.check")
 CURSOR = DB.cursor()
